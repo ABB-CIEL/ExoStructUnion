@@ -55,5 +55,13 @@ int main() {
     SCasier casier[9];
     casier[0] = c1;
     casier[1] = c2;
+    // Affichage des tailles
+    cout << "Taille de Palette : " << sizeof(SPalette) << " octets" << endl;
+    cout << "Taille de Rouleau : " << sizeof(SRouleau) << " octets" << endl;
+    cout << "Taille de contenu : " << sizeof(Ucontenu) << " octets" << endl;
+    cout << "Taille de Casier : " << sizeof(SCasier) << " octets" << endl;
+    cout << "Taille du tableau de casiers : " << sizeof(casier) << " octets" << endl;
+
+    return 0;
 
 }
