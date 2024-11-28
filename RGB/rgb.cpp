@@ -1,6 +1,6 @@
 #include <iostream>
 
 using namespace std;
-int maqin() {
+int main() {
 	cout << "RGB" << endl;
 }
